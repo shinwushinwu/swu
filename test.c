@@ -23,7 +23,7 @@ int main()
     (first>last) ? (temp=first,first=last,last=temp):(first+=0);
     for (char i = first; i <= last; i++)
         {
-            printf("%c",i);
+            printf("%c\n\n",i);
         }
     
 
